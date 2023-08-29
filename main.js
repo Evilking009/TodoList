@@ -43,8 +43,8 @@ update = () => {
         str += `
                     <tr>
                     <th scope="row">${index + 1}</th>
-                    <td>${element[1]}</td>
                     <td>${element[0]}</td>
+                    <td>${element[1]}</td>
                     <td><button class="btn btn-danger" onclick="removeItem(${index})">Delete</button></td>
                     </tr>`;
     });
